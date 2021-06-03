@@ -1,0 +1,153 @@
+
+h1{
+    color: rgb(235, 133, 50);
+}
+
+.header{
+    display: inline-flex;
+    background-color: black;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 310px;
+    font-family: fantasy;
+}
+.parent{
+    display: flex;
+    background-color: darkgreen;
+    justify-content:space-between;
+    padding: 20px;
+    width: 2000px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.powerset{
+    display: block;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 420;
+    color: #000000;
+    margin: 0px;
+    background-color:  rgb(241, 227, 19);
+    
+    
+}
+.subset img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.subset:hover{
+    transform:scale(1.2);
+}
+.menu{
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 420;
+    color: #000000;
+    border-radius: 20px;
+    background-color: rgb(241, 227, 19);;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+    display: block;
+}
+.falcon{
+    display: flex;
+    padding: 20px;
+    width: 2000px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color:  rgb(241, 227, 19);
+    justify-content:end;
+}
+.facts{
+   
+    display: block;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 420;
+    color: #000000;
+    margin: 0px;
+    background-color:  darkgreen;
+}
+.pen img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.pen:hover{
+    transform: scale(1.2);
+}
+.same{
+    font-size: 30px;
+    font-weight: 420;
+    color: #000000;
+    border-radius: 20px;
+    background-color: darkgreen;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+    display: block;
+}
+.about{
+    background-color: aqua;
+    display: inline-flex;
+}
+.more{
+    display: flex;
+    justify-content:space-between;
+}
+.explore{
+    display: flex;
+    background: darkcyan;
+}
+.about{
+    display: flex;
+    background: rgb(54, 36, 2);   
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+a:link{
+    color: #ffffff;
+}
+a:visited{
+    color: #ff0000;
+}
+.subset{
+    position: relative;    
+}
+.subset p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.pen{
+    position: relative;    
+}
+.pen p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.more:hover{
+    transform: scale(1.2);
+}
+.thank{
+    background-size: 100%;
+    background-image:url(images/avengers.jpg)
+}
+.follow{
+    background-image: url(images/insta.png),url(images/youtube.png);
+}
+
